@@ -27,9 +27,7 @@ public class GestionNotes {
         System.out.print("Nom : ");
         String nom = clavier.nextLine();
 
-        System.out.print("Âge : ");
-        int age = clavier.nextInt();
-        clavier.nextLine();
+
 
         System.out.print("Matricule : ");
         String matricule = clavier.nextLine();
@@ -75,7 +73,7 @@ public class GestionNotes {
 //        int age = 20;
 //        String matricule = "ISI-2026-0142";
 
-        System.out.println("Étudiant : " + prenom + " " + nom + " (" + age + " ans)");
+        System.out.println("Étudiant : " + prenom + " " + nom );
         System.out.println("Matricule : " + matricule);
 
 
